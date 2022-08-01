@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ĐĂNG KÝ TÀI KHOẢN</h1>
+        <form class="form" action="#" autocomplete="on" method="post">
+                <!-- tên -->
+                <label for="fname">Tên:</label><br>
+                <input class="w100" type="text" id="fname" name="fname" placeholder="Your First Name" required><br>
+
+                <!-- họ -->
+                <label for="lname">Họ:</label><br>
+                <input class="w100" type="text" id="lname" name="lname" placeholder="Your Last Name" required><br>
+                
+                <!-- email -->
+                <label for="email">Email:</label><br>
+                <input class="w100" type="email" id="email" name="email" placeholder="Your Email" required><br>
+
+                <!-- phone number -->
+                <label for="phone">Số điện thoại:</label><br>
+                <input class="w100" type="tel" id="phone" name="phone" placeholder="Your Phone Number" required><br>
+
+                <!-- sinh nhật -->
+                <label for="birthday">Sinh nhật:</label><br>
+                <input class="w100" type="date" id="birthday" name="birthday" required><br><br>
+
+                <!-- giới tính -->
+                <span>Giới tính:</span>
+                <input type= "radio" id="male" name="gender" value="male">
+                <label for="male">Nam</label>
+                <input type= "radio" id="female" name="gender" value="female">
+                <label for="female">Nữ</label>
+                <input type= "radio" id="other" name="gender" value="other">
+                <label for="other">Khác</label><br>
+                
+                <!-- đăng ký -->
+                <button class="btn" type="button">Đăng ký</button>
+        </form>
+    </div>
+</body>
+</html>
